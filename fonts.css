@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Bebas;
+    src: url("src/fonts/Bebas/BebasRegular.ttf");
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("src/fonts/Bebas/BebasBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("src/fonts/roboto/Roboto-Regular.ttf");
+    font-weight: Regular;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("src/fonts/roboto/Roboto-Bold.ttf");
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("src/fonts/roboto/Roboto-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("src/fonts/roboto/Roboto-Medium.ttf");
+    font-weight: Medium;
+}
+
+body{
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 23pt;
+}
+
+h1{
+    font-size: 381%;
+    font-weight: bold;
+    color: #FFEB3B;
+    margin: 0;
+}
+
+h1.bebas{
+    font-size: 381%;
+    font-weight: bold;
+    color: #FFEB3B;
+    margin: 0;
+}
+
+h2{
+    font-size: 268%;
+    margin: 0;
+    padding-top: 8px;
+}
+
+h2.bebas{
+    font-size: 268%;
+    margin: 0;
+}
+
+h3{
+    font-size: 210%;
+    margin: 0;
+}
+
+h4{
+    font-size: 170%;
+}
+
+.bebas{
+    font-family: Bebas;
+    font-size: 21pt;
+}
+
+.roboto {
+    font-family: Roboto;
+    font-size: 23pt;
+}
+
+.light{
+    font-weight: 200;
+}
+
+.number{
+    font-size: 133%;
+    font-weight: bold;
+    font-family: Bebas;
+}
+
+.big{
+    font-size: 150%;
+}
+
+.padding-bottom{
+    padding-bottom: 7%;
+}
+
+.x-small{
+    font-size: 60%;
+}
+
+.xx-small{
+    font-size: 50%
+}
+
+.middle{
+    font-size: 118%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+#sec-02{
+    font-size: 50%;
+}
+
+@media (max-width: 767px){
+
+    h1{
+        font-size: 300%;
+    }
+
+    h2{
+        font-size: 170%;
+    }
+
+    h3{
+        font-size: 170%;
+    }
+
+    .big{
+        font-size: 125%;
+    }
+}
+
+@media (max-width: 532px){
+
+    .roboto {
+        font-size: 19pt;
+    }
+
+    .bebas {
+        font-size: 18pt;
+    }
+
+    body{
+        font-size: 19pt;
+    }
+
+    h1{
+        font-size: 250%;
+    }
+
+    h2{
+        font-size: 135%;
+        padding-left: 3%;
+    }
+
+    h3{
+        font-size: 130%;
+    }
+
+    .big{
+        font-size: 100%;
+    }
+}
